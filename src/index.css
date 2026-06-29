@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DM";
+  src:
+    url("./fonts/DMArchium-Regular.woff2") format("woff2"),
+    url("./fonts/DMArchium-Regular.woff") format("woff"),
+    url("./fonts/DMArchium-Regular.eot") format("embedded-opentype"),
+    url("./fonts/DMArchium-Regular.svg#DMArchium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-DM: "DM", sans-serif;
+}
+
+@font-face {
+  font-family: "BPGB";
+  src:
+    url("./fonts/BPGBoxo-Boxo.woff2") format("woff2"),
+    url("./fonts/BPGBoxo-Boxo.woff") format("woff"),
+    url("./fonts/BPGBoxo-Boxo.eot") format("embedded-opentype"),
+    url("./fonts/BPGBoxo-Boxo.svg#BPGBoxo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-BPGB: "BPGB", sans-serif;
+}
