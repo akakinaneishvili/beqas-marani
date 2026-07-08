@@ -1,0 +1,128 @@
+import { NavLink } from "react-router-dom";
+import logo from "/logo.png";
+import facebook from "/facebook.svg";
+import instagram from "/instagram.svg";
+import location from "/location.svg";
+import mail from "/mail.svg";
+import phone from "/phone.svg";
+import clock from "/clock.svg";
+
+function Footer() {
+  return (
+    <>
+      <div className="w-full bg-footer mt-auto border-t border-t-Gold">
+        <div className="flex py-10 gap-56 w-[1800px] m-auto  ">
+          <section>
+            <div className="flex items-center gap-3 mb-6">
+              <NavLink to="/" className="flex h-6 items-center">
+                <img src={logo} alt="Logo" className="h-15 object-contain" />
+                <span className="font-DM text-[#F5F0E8] text-[20px] font-medium tracking-[0.04em]">
+                  Beka&apos;s Marani
+                </span>
+              </NavLink>
+            </div>
+            <p className="font-BPGB text-textMuted  w-95  mb-8">
+              აღმოაჩინეთ ტრადიციული მეღვინეობის, მდიდარი გასტრონომიისა და
+              ავთენტური კახური სტუმარმასპინძლობის ხელოვნება ოჟიოში.
+            </p>
+
+            <nav className="flex items-center gap-5">
+              <a
+                href="https://www.instagram.com/bekasmarani"
+                className="group text-amber-200 hover:text-amber-300 flex items-center gap-2 "
+              >
+                <img
+                  src={instagram}
+                  alt="Instagram"
+                  className="w-5 object-contain "
+                />
+                <span>@bekasmarani</span>
+              </a>
+
+              <a
+                href="https://www.facebook.com/bekas.marani/"
+                className="  text-amber-200 hover:text-amber-300 flex items-center gap-2 "
+              >
+                <img
+                  src={facebook}
+                  alt="Facebook"
+                  className="w-5 object-contain"
+                />
+                <span>Facebook</span>
+              </a>
+            </nav>
+          </section>
+
+          <div className="w-px bg-[#FFAD0A]/12 shrink-0" />
+
+          <div className="flex-1 grid grid-cols-2 gap-x-16 gap-y-10">
+            <section className="flex flex-col gap-10">
+              <div className="flex items-start gap-3">
+                <img src={location} alt="" className="w-5 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
+                    მისამართი
+                  </p>
+                  <p className="font-BPGB text-textMuted  leading-[1.8] font-light">
+                    სოფელი ოჟიო,
+                    <br />
+                    ახმეტის რაიონი, საქართველო
+                    <br />
+                    <span className="text-Gold/50 text-[12px]">
+                      Ozhio, Akhmeta, Georgia 0906
+                    </span>
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <img src={phone} alt="" className="w-5 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
+                    ტელეფონი
+                  </p>
+                  <p className="font-BPGB text-textMuted leading-[1.8] font-light">
+                    +995 579 88 22 73
+                    <br />
+                    +995 579 10 22 09
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section className="flex flex-col gap-10">
+              <div className="flex items-start gap-3">
+                <img src={mail} alt="" className="w-5 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
+                    ელ-ფოსტა
+                  </p>
+                  <p className="font-BPGB text-textMuted  leading-[1.9] font-light">
+                    arbolishvilimari1409@gmail.com
+                    <br />
+                    arbolishvilimari@yahoo.com
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <img src={clock} alt="" className="w-5 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
+                    სამუშაო საათები
+                  </p>
+                  <p className="font-BPGB text-textMuted  leading-[1.8] font-light">
+                    ყოველდღე
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Footer;

@@ -1,0 +1,22 @@
+<svg
+  viewBox="0 0 400 500"
+  className="w-[224px] h-[290px]"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* ქვევრის სუფთა კონტური ოქროსფერში */}
+  <path
+    d="M 160 120 
+       C 160 140, 140 150, 120 170 
+       C  70 210,  70 310, 120 370 
+       C 150 410, 190 440, 200 450 
+       C 210 440, 250 410, 280 370 
+       C 330 310, 330 210, 280 170 
+       C 260 150, 240 140, 240 120 
+       Z"
+    stroke="#D4AF37"
+    strokeWidth="3"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>

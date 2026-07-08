@@ -29,3 +29,13 @@
 @theme {
   --font-BPGB: "BPGB", sans-serif;
 }
+
+@theme {
+  --color-Gold: #ffad0a;
+  --color-textMuted: #f5f0e88c;
+  --color-footer: #1C1C1C
+}
+
+.container-center {
+  @apply w-full max-w-[1400px] px-6 lg:w-11/12 mx-auto;
+}

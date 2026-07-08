@@ -1,0 +1,35 @@
+{
+  "navigation": [
+    {
+      "id": "1",
+      "title": "მთავარი",
+      "path": "/"
+    },
+
+    {
+      "id": "2",
+      "title": "მარანი",
+      "path": "/wine-cellar"
+    },
+    {
+      "id": "3",
+      "title": "რესტორანი",
+      "path": "/restaurant"
+    },
+    {
+      "id": "4",
+      "title": "სასტუმრო",
+      "path": "/hotel"
+    },
+    {
+      "id": "5",
+      "title": "ჩვენს შესახებ",
+      "path": "/about-us"
+    },
+    {
+      "id": "6",
+      "title": "კონტაქტი",
+      "path": "/contact"
+    }
+  ]
+}
