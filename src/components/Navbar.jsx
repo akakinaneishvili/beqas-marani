@@ -24,6 +24,9 @@ function Navbar() {
      
         <NavLink to="/" className="flex items-center h-full py-2">
           <img src={logo} alt="Logo" className="h-full object-contain" />
+           <span className="font-DM text-[#F5F0E8] text-[20px] font-medium tracking-[0.04em]">
+                  Beka&apos;s Marani
+                </span>
         </NavLink>
 
       

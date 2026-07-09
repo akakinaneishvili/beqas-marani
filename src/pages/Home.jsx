@@ -1,12 +1,13 @@
 import mainBg from "/home1.png";
 import BGfoto from "/BGfoto.png";
-
 import meinIMG from "/9.jpg";
+import meinIMG_2 from "/10.jpg";
+import BGfoto_2 from "/12.jpg";
 import terasa from "/5.jpg";
-
+import qvevri from "/qvevri.SVG";
 import grapes from "/grapes.svg";
-
-
+import arrow from "/arrow.svg";
+import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
           </p>
 
           <h1 className="font-DM text-Gold text-6xl  leading-[3] h-96">
-            ტრადიცია, გემოვნება და ქართული სტუმარმასპინძლობა
+          <p className="text-textMuted "> ტრადიცია, გემოვნება და ქართული   </p>  სტუმარმასპინძლობა
           </h1>
 
           <p className="font-BPGB text-textMuted ">
@@ -57,6 +58,12 @@ function Home() {
                   სადეგუსტაციო ვიზიტი, ღვინის ტური და კახური სუფრა
                   ხელმისაწვდომია ჩვენს სტუმრებისთვის ნებისმიერ დროს.
                 </p>
+                <NavLink
+                  to={"/wine-cellar"}
+                  className="text-Gold font-BPGB flex items-center"
+                >
+                  ვრცლად <img src={arrow} alt="" className="w-10" />
+                </NavLink>
               </div>
             </div>
           </section>
@@ -112,35 +119,70 @@ function Home() {
                   და თავისუფალი წვდომა ღვინის ტერასაზე, საიდანაც კავკასიონის
                   ხედი იშლება.
                 </p>
+                 <NavLink
+                  to={"/restaurant"}
+                  className="text-Gold font-BPGB flex items-center"
+                >
+                  ვრცლად <img src={arrow} alt="" className="w-10" />
+                </NavLink>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div className=" flex ">
+          <div
+            className="relative w-full h-162.5 bg-cover bg-center bg-no-repeat flex items-start overflow-hidden" // flex items-center შეიცვალა items-start-ით
+            style={{ backgroundImage: `url(${BGfoto_2})` }}
+          >
+            <div className="absolute inset-0 bg-black/60" />
+
+            <div className="relative w-6xl flex flex-col mx-auto  items-center ">
+              <p className="font-DM text-white text-6xl  leading-[4]">
+                ტრადიციული სტუმრობა
+              </p>
+              <p className="text-Gold font-DM text-6xl mt-2">მარანში</p>
+            </div>
+          </div>
+        </div>
+
+        <div className=" flex items-center justify-center container-center py-28">
+          <section className="flex flex-col lg:flex-row items-start gap-12">
+            <img src={meinIMG_2} className="w-full lg:w-1/2 rounded-sm" />
+
+            <div className="flex flex-col p-10 justify-between ">
+              <nav className=" flex flex-col gap-5 text-3xl leading-relaxed mb-6">
+                <p className="text-textMuted font-DM">სიმშვიდის და კომფორტის</p>
+                <p className="text-Gold font-DM "> სავანე</p>
+              </nav>
+
+              <div className="text-textMuted font-BPGB font-light leading-relaxed flex flex-col gap-6 mb-12">
+                <p>
+                  ჩვენი ბუტიკ სასტუმრო გთავაზობთ თბილ, კომფორტულ ოთახებს აივნის
+                  ხედით კახეთის ბუნებაზე. ყოველი განთავსება ინდივიდუალურად
+                  მოვლილი, სტუმრის კომფორტზე ორიენტირებული.
+                </p>
+                 <NavLink
+                  to={"/hotel"}
+                  className="text-Gold font-BPGB flex items-center"
+                >
+                  ვრცლად <img src={arrow} alt="" className="w-10" />
+                </NavLink>
               </div>
             </div>
           </section>
         </div>
       </div>
+
+
+     
       <div className="flex justify-center items-center py-28 bg-footer text-center px-4">
         <p className="font-DM text-Gold text-xl md:text-2xl italic font-light tracking-wide max-w-4xl leading-24">
           "საქართველოში ღვინო მხოლოდ სასმელი არ არის — ეს არის დიალოგი ვაზს,
           მიწასა და ჭურჭელს შორის. ღვინის თითოეული ჩამოსხმა რვა ათასი წლის
           მეხსიერებას ატარებს."
         </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       </div>
-
-
-      
     </>
   );
 }

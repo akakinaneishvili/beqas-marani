@@ -63,7 +63,13 @@ function Footer() {
                   <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
                     მისამართი
                   </p>
-                  <p className="font-BPGB text-textMuted  leading-[1.8] font-light">
+
+                  <a
+                    href="https://google.com/maps/place/%E1%83%91%E1%83%94%E1%83%A5%E1%83%90%E1%83%A1+%E1%83%9B%E1%83%90%E1%83%A0%E1%83%9C%E1%83%98/@41.9692948,45.365144,19z/data=!4m14!1m7!3m6!1s0x404435ebd3811f1d:0xb2c6c14744c8fb07!2z4YOR4YOU4YOl4YOQ4YOhIOGDm-GDkOGDoOGDkOGDnOGDmA!8m2!3d41.969232!4d45.3650716!16s%2Fg%2F11p5fblvh5!3m5!1s0x404435ebd3811f1d:0xb2c6c14744c8fb07!8m2!3d41.969232!4d45.3650716!16s%2Fg%2F11p5fblvh5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-BPGB text-textMuted hover:text-Gold transition-all duration-300 leading-[1.8] font-light block"
+                  >
                     სოფელი ოჟიო,
                     <br />
                     ახმეტის რაიონი, საქართველო
@@ -71,7 +77,7 @@ function Footer() {
                     <span className="text-Gold/50 text-[12px]">
                       Ozhio, Akhmeta, Georgia 0906
                     </span>
-                  </p>
+                  </a>
                 </div>
               </div>
 
@@ -81,10 +87,19 @@ function Footer() {
                   <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
                     ტელეფონი
                   </p>
-                  <p className="font-BPGB text-textMuted leading-[1.8] font-light">
-                    +995 579 88 22 73
-                    <br />
-                    +995 579 10 22 09
+                  <p className="flex flex-col font-BPGB text-textMuted leading-[1.8] font-light">
+                    <a
+                      href="tel:+995579882273"
+                      className="hover:text-Gold transition-colors"
+                    >
+                      +995 579 88 22 73
+                    </a>
+                    <a
+                      href="tel:+995579102209"
+                      className="hover:text-Gold transition-colors"
+                    >
+                      +995 579 10 22 09
+                    </a>
                   </p>
                 </div>
               </div>
@@ -97,11 +112,21 @@ function Footer() {
                   <p className="text-Gold font-BPGB  tracking-[0.25em] uppercase mb-2">
                     ელ-ფოსტა
                   </p>
-                  <p className="font-BPGB text-textMuted  leading-[1.9] font-light">
-                    arbolishvilimari1409@gmail.com
-                    <br />
-                    arbolishvilimari@yahoo.com
-                  </p>
+
+                  <div className="flex flex-col font-BPGB text-textMuted leading-[1.9] font-light">
+                    <a
+                      href="mailto:arbolishvilimari1409@gmail.com"
+                      className="hover:text-Gold transition-colors break-all"
+                    >
+                      arbolishvilimari1409@gmail.com
+                    </a>
+                    <a
+                      href="mailto:arbolishvilimari@yahoo.com"
+                      className="hover:text-Gold transition-colors break-all"
+                    >
+                      arbolishvilimari@yahoo.com
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -111,10 +136,12 @@ function Footer() {
                   <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
                     სამუშაო საათები
                   </p>
-                  <p className="font-BPGB text-textMuted  leading-[1.8] font-light">
-                    ყოველდღე
-                    <br />
-                  </p>
+                  <div className="font-BPGB text-textMuted leading-[1.8] font-light">
+                    <p>ორშაბათი - კვირა</p>
+                    <p className="text-Gold/70 text-[13px]">
+                      11:00 AM - 08:00 PM
+                    </p>
+                  </div>
                 </div>
               </div>
             </section>
