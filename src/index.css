@@ -31,12 +31,11 @@
 }
 
 @theme {
-  --color-Gold: #ffad0a;
-  --color-textMuted: #f5f0e88c;
+  --color-Gold: #E07B00;
+  --color-textMuted: #f4f1ea;
   --color-footer: #1c1c1c;
 }
 
 .container-center {
   @apply w-full max-w-[1400px] px-6 lg:w-11/12 mx-auto;
 }
-
