@@ -13,19 +13,17 @@ function Cellar() {
         />
 
         <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
-          <p className="font-BPGB text-Gold  sm:text-sm tracking-[0.3em] uppercase">
+          <p className="font-BPGB text-Gold tracking-[0.3em] uppercase">
             სოფელი ოჟიო · კახეთი · საქართველო
           </p>
 
-          <h1 className="font-DM text-textMuted w-300 leading-40 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center ">
+          <h1 className="font-DM text-textMuted w-300 leading-40 text-5xl text-center ">
             ღვინის მარანი და კახური
             <p className=" text-Gold">ტრადიციების საწყისი </p>
           </h1>
 
-          <p className="w-full max-w-2xl font-BPGB text-white text-sm sm:text-base md:text-lg tracking-wide leading-relaxed">
-            8000 წლის ისტორია ახლა თქვენს ჭიქაშია. ბეკას მარანი — ადგილი, სადაც
-            ქვევრის ღვინო ისევ ისე ისხმება, როგორც ათასი წლის წინ — ბუნებრივად,
-            სიყვარულით, კახური ტრადიციით.
+          <p className="w-full max-w-2xl font-BPGB text-white  tracking-wide leading-relaxed">
+            8000 წლის ისტორია ახლა თქვენს ჭიქაშია
           </p>
         </div>
       </div>
@@ -79,7 +77,7 @@ function Cellar() {
           </div>
         </div>
 
-        <Card/>
+        <Card />
       </div>
     </>
   );

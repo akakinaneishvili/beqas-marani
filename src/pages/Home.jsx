@@ -4,7 +4,6 @@ import meinIMG from "/9.jpg";
 import meinIMG_2 from "/10.jpg";
 import BGfoto_2 from "/12.jpg";
 import terasa from "/5.jpg";
-import qvevri from "/qvevri.SVG";
 import grapes from "/grapes.svg";
 import arrow from "/arrow.svg";
 import { NavLink } from "react-router-dom";
@@ -18,20 +17,17 @@ function Home() {
           style={{ backgroundImage: `url(${mainBg})` }}
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
-          <p className="font-BPGB text-Gold text-xs sm:text-sm tracking-[0.3em]">
+        <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
+          <p className="font-BPGB text-Gold  tracking-[0.3em] uppercase">
             სოფელი ოჟიო · კახეთი · საქართველო
           </p>
 
-          <h1 className="flex flex-col items-center font-DM text-Gold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
-            <span className="text-textMuted block mb-20 ">
-              ტრადიცია, გემოვნება და ქართული
-            </span>
-
-            <span className="block leading-normal">სტუმარმასპინძლობა</span>
+          <h1 className="font-DM text-textMuted w-300 leading-40 text-5xl text-center ">
+            ტრადიცია, გემოვნება და ქართული
+            <p className=" text-Gold">სტუმარმასპინძლობა</p>
           </h1>
 
-          <p className="font-BPGB text-textMuted text-sm sm:text-base tracking-wide">
+          <p className="w-full max-w-2xl font-BPGB text-white  tracking-wide leading-relaxed">
             ავთენტური ქვევრის ღვინო · გასტრონომია · ბუტიკ სასტუნრო
           </p>
         </div>
