@@ -27,7 +27,7 @@ function Card() {
             <div className="w-full h-64 overflow-hidden rounded-lg mb-6 bg-zinc-900">
               <img 
                 src={item.photo} 
-                alt={item.name} 
+               
                 className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                 
               />

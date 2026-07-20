@@ -139,12 +139,12 @@ function Home() {
           >
             <div className="absolute inset-0 bg-black/60" />
 
-            <div className="relative w-full max-w-6xl flex flex-col items-center text-center">
-              <p className="font-DM text-white mb-16 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
-                ტრადიციული სტუმრობა
+            <div className="relative w-full max-w-6xl  flex flex-col items-center text-center">
+              <p className="font-HF  text-white mb-24 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
+                ტრადიციული
               </p>
-              <p className="text-Gold font-DM text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-2">
-                მარანში
+              <p className="text-Gold font-HF text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-2">
+                სტუმრობა მარანში
               </p>
             </div>
           </div>
