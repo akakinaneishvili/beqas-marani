@@ -17,7 +17,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="bg-black text-Gold border-b border-Gold/20 sticky top-0 z-50">
+    <nav className="bg-black text-Gold border-b border-Gold/20 sticky top-0 z-50 ">
       <div className="max-w-[1800px] w-full h-20 md:h-24 mx-auto px-4 sm:px-6 flex items-center justify-between">
         <NavLink to="/" className="flex items-center h-full py-2 z-50 gap-2">
           <img

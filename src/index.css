@@ -1,6 +1,21 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: "HFL";
+  src:
+    url("./fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("./PlayfairDisplay-BoldItalic.woff") format("woff"),
+    url("./PlayfairDisplay-BoldItalic.eot") format("embedded-opentype"),
+    url("./fonts/PlayfairDisplay-BoldItalic.svg#DMArchium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-HFL: "HFL", sans-serif;
+}
+
+@font-face {
   font-family: "DM";
   src:
     url("./fonts/MTMchedlidzeHelnatceri1.woff2") format("woff2"),
@@ -27,17 +42,16 @@
 }
 
 @theme {
-  --font-HF : "HF", sans-serif;
+  --font-HF: "HF", sans-serif;
 }
-
 
 @font-face {
   font-family: "BPGB";
   src:
-    url("./fonts/BPGBoxo-Boxo.woff2") format("woff2"),
-    url("./fonts/BPGBoxo-Boxo.woff") format("woff"),
-    url("./fonts/BPGBoxo-Boxo.eot") format("embedded-opentype"),
-    url("./fonts/BPGBoxo-Boxo.svg#BPGBoxo") format("svg");
+    url("./fonts/PlayfairDisplay-BoldItalic") format("woff2"),
+    url("./fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
+    url("./fonts/PlayfairDisplay-BoldItalic.eot") format("embedded-opentype"),
+    url("./fonts/PlayfairDisplay-BoldItalic.svg#BPGBoxo") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -47,8 +61,9 @@
 }
 
 @theme {
-  --color-Gold:#E5A93C;
-  --color-textMuted: #E5A93C;
+  --color-Gold:  #FFC847;
+  --color-BG: #0a0a0a;
+  --color-textMuted: #FFDA85;
   --color-footer: #1c1c1c;
 }
 

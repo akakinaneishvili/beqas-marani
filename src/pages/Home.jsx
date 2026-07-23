@@ -1,4 +1,4 @@
-import mainBg from "/home1.png";
+import mainBg from "/vineyard.jpg";
 import BGfoto from "/BGfoto.png";
 import meinIMG from "/9.jpg";
 import meinIMG_2 from "/10.jpg";
@@ -11,29 +11,33 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="relative w-full flex flex-col items-center justify-center text-center px-4 overflow-hidden bg-footer min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)] lg:h-225 py-12">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-50"
-          style={{ backgroundImage: `url(${mainBg})` }}
-        />
+   <div className="relative w-full flex flex-col items-center justify-center text-center px-4 overflow-hidden bg-BG min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)] lg:h-225 py-12">
+  
+  
+  <div
+    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+    style={{ 
+      backgroundImage: `radial-gradient(ellipse at center, rgba(10, 10, 10, 0.5) 20%, rgba(10, 10, 10, 0.7) 65%, #0A0A0A 90%), url(${mainBg})` 
+    }}
+  />
 
-        <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
-          <p className="font-BPGB text-Gold  tracking-[0.3em] uppercase">
-            სოფელი ოჟიო · კახეთი · საქართველო
-          </p>
+  <div className="relative z-10   container-center flex flex-col items-center   justify-center  w-full max-w-7xl  lg:gap-0">
+    <p className="font-BPGB  text-textMuted tracking-[0.3em] uppercase text-2xl mb-32">
+      სოფელი ოჟიო · კახეთი · საქართველო
+    </p>
 
-          <h1 className="font-DM text-textMuted w-300 leading-40 text-5xl text-center ">
-            ტრადიცია, გემოვნება და ქართული
-            <p className=" text-Gold">სტუმარმასპინძლობა</p>
-          </h1>
+    <h1 className="font-HFL text-white w-4xl text-9xl  text-center ">
+    Beka's Marani
+      
+    </h1>
 
-          <p className="w-full max-w-2xl font-BPGB text-white  tracking-wide leading-relaxed">
-            ავთენტური ქვევრის ღვინო · გასტრონომია · ბუტიკ სასტუნრო
-          </p>
-        </div>
-      </div>
+    <p className="w-full max-w-2xl font-BPGB  text-textMuted tracking-wide leading-relaxed text-2xl mt-32">
+      ავთენტური ქვევრის ღვინო · გასტრონომია · ბუტიკ სასტუმრო
+    </p>
+  </div>
+</div>
 
-      <div className="bg-black py-12 md:py-20">
+      <div className="bg-BG py-12 md:py-20">
         <div className="flex items-center justify-center container-center mx-auto px-4 sm:px-6">
           <section className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12 mb-16 md:mb-24 w-full">
             <img
@@ -43,12 +47,12 @@ function Home() {
             />
 
             <div className="flex flex-col p-4 sm:p-10 justify-between w-full lg:w-1/2">
-              <nav className="flex flex-col gap-2 sm:gap-5 text-2xl sm:text-3xl leading-relaxed mb-4 sm:mb-6">
-                <p className="text-textMuted font-DM">ავთენტური</p>
-                <p className="text-Gold font-DM">ქვევრის ღვინო</p>
+              <nav className="flex flex-col gap-2 sm:gap-5 text-2xl sm:text-3xl leading-relaxed mb-4 sm:mb-6 font-DM font-bold">
+                <p className="">ავთენტური</p>
+                <p className="">ქვევრის ღვინო</p>
               </nav>
 
-              <div className="text-textMuted font-BPGB font-light text-sm sm:text-base leading-relaxed flex flex-col gap-4 sm:gap-6 mb-8 sm:mb-12">
+              <div className="text-black -ont-BPGB font-light text-sm sm:text-base leading-relaxed flex flex-col gap-4 sm:gap-6 mb-8 sm:mb-12">
                 <p>
                   ბექას მარანი ინახავს კახური მეღვინეობის უძველეს ტრადიციებს.
                   ჩვენი ქვევრის ღვინოები — რქაწითელი, მწვანე, კახური — მზადდება
