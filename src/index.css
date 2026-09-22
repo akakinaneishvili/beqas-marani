@@ -1,27 +1,12 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "HFL";
-  src:
-    url("./fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
-    url("./PlayfairDisplay-BoldItalic.woff") format("woff"),
-    url("./PlayfairDisplay-BoldItalic.eot") format("embedded-opentype"),
-    url("./fonts/PlayfairDisplay-BoldItalic.svg#DMArchium") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@theme {
-  --font-HFL: "HFL", sans-serif;
-}
-
-@font-face {
   font-family: "DM";
   src:
-    url("./fonts/MTMchedlidzeHelnatceri1.woff2") format("woff2"),
-    url("./MTMchedlidzeHelnatceri1.woff") format("woff"),
-    url("./fonts/MTMchedlidzeHelnatceri1.eot") format("embedded-opentype"),
-    url("./fonts/MTMchedlidzeHelnatceri1.svg#DMArchium") format("svg");
+    url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
+    url("./DMConstitution-Regular.woff") format("woff"),
+    url("./fonts/DMConstitution-Regular.eot") format("embedded-opentype"),
+    url("./fonts/DMConstitution-Regular.svg#DMArchium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -31,33 +16,33 @@
 }
 
 @font-face {
-  font-family: "HF";
+  font-family: "TITLE";
   src:
-    url("./fonts/MTMchedlidzeHelnatceri1.woff2") format("woff2"),
-    url("./MTMchedlidzeHelnatceri1.woff") format("woff"),
-    url("./fonts/MTMchedlidzeHelnatceri1.eot") format("embedded-opentype"),
-    url("./fonts/MTMchedlidzeHelnatceri1.svg#DMArchium") format("svg");
+    url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
+    url("./DMConstitution-Regular.woff") format("woff"),
+    url("./fonts/DMConstitution-Regular.eot") format("embedded-opentype"),
+    url("./fonts/DMConstitution-Regular.svg#DMArchium") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @theme {
-  --font-HF: "HF", sans-serif;
+  --font-TITLE: "TITLE", sans-serif;
 }
 
 @font-face {
-  font-family: "BPGB";
+  font-family: "NAVBAR";
   src:
-    url("./fonts/PlayfairDisplay-BoldItalic") format("woff2"),
-    url("./fonts/PlayfairDisplay-BoldItalic.woff") format("woff"),
-    url("./fonts/PlayfairDisplay-BoldItalic.eot") format("embedded-opentype"),
-    url("./fonts/PlayfairDisplay-BoldItalic.svg#BPGBoxo") format("svg");
+    url("./fonts/AcadMtavr.woff2") format("woff2"),
+    url("./fonts/AcadMtavr.woff") format("woff"),
+    url("./fonts/AcadMtavr.eot") format("embedded-opentype"),
+    url("./fonts/AcadMtavr.svg#NAVBARoxo") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @theme {
-  --font-BPGB: "BPGB", sans-serif;
+  --font-NAVBAR: "NAVBAR", sans-serif;
 }
 
 @theme {

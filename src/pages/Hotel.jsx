@@ -17,7 +17,7 @@ function Hotel() {
             სოფელი ოჟიო · კახეთი · საქართველო
           </p>
 
-          <h1 className="font-HF text-textMuted w-300 leading-40 text-5xl text-center ">
+          <h1 className="font-TITLE text-textMuted w-300 leading-40 text-5xl text-center ">
             სადაც კომფორტი ხვდება
             <p className=" text-Gold">ტრადიციას </p>
           </h1>

@@ -31,6 +31,82 @@
       "path": "/contact"
     }
   ],
+
+ "MenuCard": [
+    {
+      "id": "1",
+      "title": "მარანი",
+      "image": "/9.jpg",
+      "path": "/wine-cellar"
+    },
+    {
+      "id": "2",
+      "title": "რესტორანი",
+      "image": "/BGfoto.png",
+      "path": "/restaurant"
+    },
+    {
+      "id": "3",
+      "title": "სასტუმრო",
+      "image": "/10.jpg",
+       "path": "/hotel"
+    },
+    {
+      "id": "4",
+      "title": "ჩვენს შესახებ",
+      "image": "/original.png",
+      "path": "/about-us"
+    }
+  ],
+  
+
+
+  
+  "sliderPhotos": [
+    {
+      "id": "1",
+      "image": "/pirveli.jpg"
+    },
+    {
+      "id": "2",
+      "image": "/meore.jpg"
+    },
+    {
+      "id": "3",
+      "image": "/mesame.jpg"
+    },
+    {
+      "id": "4",
+      "image": "/meotxe.jpg"
+    },
+    {
+      "id": "5",
+      "image": "/mexute.jpg"
+    },
+    {
+      "id": "6",
+      "image": "/9.jpg"
+    },
+     {
+      "id": "7",
+      "image": "/venaxi.webp"
+    },
+     {
+      "id": "8",
+      "image": "/vineyard.jpg"
+    },
+     {
+      "id": "9",
+      "image": "/wine.jpg"
+    },
+     {
+      "id": "10",
+      "image": "/logo.png"
+    }
+  ],
+
+
+
   "wine": [
     {
       "id": "1",

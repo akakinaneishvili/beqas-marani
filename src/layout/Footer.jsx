@@ -21,7 +21,7 @@ function Footer() {
                 </span>
               </NavLink>
             </div>
-            <p className="font-BPGB text-textMuted w-full sm:w-95 mb-8 leading-[1.6]">
+            <p className="font-TITLE text-textMuted w-full sm:w-95 mb-8 leading-[1.6]">
               აღმოაჩინეთ ტრადიციული მეღვინეობის, მდიდარი გასტრონომიისა და
               ავთენტური კახური სტუმარმასპინძლობის ხელოვნება ოჟიოში.
             </p>
@@ -64,14 +64,14 @@ function Footer() {
               <div className="flex items-start gap-3">
                 <img src={location} alt="" className="w-5 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
+                  <p className="text-Gold font-TITLE tracking-[0.25em] uppercase mb-2">
                     მისამართი
                   </p>
                   <a
                     href="https://google.com/maps/place/%E1%83%91%E1%83%94%E1%83%A5%E1%83%90%E1%83%A1+%E1%83%9B%E1%83%90%E1%83%A0%E1%83%9C%E1%83%98/@41.9692948,45.365144,19z/data=!4m14!1m7!3m6!1s0x404435ebd3811f1d:0xb2c6c14744c8fb07!2z4YOR4YOU4YOl4YOQ4YOhIOGDm-GDkOGDoOGDkOGDnOGDmA!8m2!3d41.969232!4d45.3650716!16s%2Fg%2F11p5fblvh5!3m5!1s0x404435ebd3811f1d:0xb2c6c14744c8fb07!8m2!3d41.969232!4d45.3650716!16s%2Fg%2F11p5fblvh5"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-BPGB text-textMuted hover:text-Gold transition-all duration-300 leading-[1.8] font-light block"
+                    className="font-TITLE text-textMuted hover:text-Gold transition-all duration-300 leading-[1.8] font-light block"
                   >
                     სოფელი ოჟიო,
                     <br />
@@ -87,10 +87,10 @@ function Footer() {
               <div className="flex items-start gap-3">
                 <img src={phone} alt="" className="w-5 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
+                  <p className="text-Gold font-TITLE tracking-[0.25em] uppercase mb-2">
                     ტელეფონი
                   </p>
-                  <p className="flex flex-col font-BPGB text-textMuted leading-[1.8] font-light">
+                  <p className="flex flex-col font-TITLE text-textMuted leading-[1.8] font-light">
                     <a
                       href="tel:+995579882273"
                       className="hover:text-Gold transition-colors"
@@ -112,10 +112,10 @@ function Footer() {
               <div className="flex items-start gap-3">
                 <img src={mail} alt="" className="w-5 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
+                  <p className="text-Gold font-TITLE tracking-[0.25em] uppercase mb-2">
                     ელ-ფოსტა
                   </p>
-                  <div className="flex flex-col font-BPGB text-textMuted leading-[1.9] font-light">
+                  <div className="flex flex-col font-TITLE text-textMuted leading-[1.9] font-light">
                     <a
                       href="mailto:arbolishvilimari1409@gmail.com"
                       className="hover:text-Gold transition-colors break-all"
@@ -135,10 +135,10 @@ function Footer() {
               <div className="flex items-start gap-3">
                 <img src={clock} alt="" className="w-5 mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-Gold font-BPGB tracking-[0.25em] uppercase mb-2">
+                  <p className="text-Gold font-TITLE tracking-[0.25em] uppercase mb-2">
                     სამუშაო საათები
                   </p>
-                  <div className="font-BPGB text-textMuted leading-[1.8] font-light">
+                  <div className="font-TITLE text-textMuted leading-[1.8] font-light">
                     <p>ორშაბათი - კვირა</p>
                     <p className="text-Gold/70 text-[13px]">
                       11:00 AM - 08:00 PM

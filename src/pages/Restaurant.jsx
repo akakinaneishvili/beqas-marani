@@ -14,7 +14,7 @@ function Restaurant(){
             სოფელი ოჟიო · კახეთი · საქართველო
           </p>
 
-          <h1 className="font-HF  text-textMuted w-300 leading-40 text-5xl text-center ">
+          <h1 className="font-TITLE  text-textMuted w-300 leading-40 text-5xl text-center ">
           ქართული სუფრის ხელოვნება
           <p className=" text-Gold">ტრადიციული კახური მასპინძლობა</p>
             

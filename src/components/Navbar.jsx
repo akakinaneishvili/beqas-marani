@@ -25,7 +25,7 @@ function Navbar() {
             alt="Logo"
             className="h-4/5 md:h-full object-contain"
           />
-          <span className="font-DM text-[#F5F0E8] text-[16px] sm:text-[18px] md:text-[20px] font-medium tracking-[0.04em] whitespace-nowrap">
+          <span className="font-TITLE text-[#F5F0E8] text-[16px] sm:text-[18px] md:text-[20px] font-medium tracking-[0.04em] whitespace-nowrap">
             Beka&apos;s Marani
           </span>
         </NavLink>
@@ -48,7 +48,7 @@ function Navbar() {
 
         <ul
           className={`
-          flex items-center font-BPGB
+          flex items-center font-TITLE
           
         
           fixed inset-0 bg-black flex-col justify-center gap-8 w-full h-screen transition-all duration-300 z-40
