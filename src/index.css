@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "DM";
-  src:
-    url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
+  src: url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
     url("./DMConstitution-Regular.woff") format("woff"),
     url("./fonts/DMConstitution-Regular.eot") format("embedded-opentype"),
     url("./fonts/DMConstitution-Regular.svg#DMArchium") format("svg");
@@ -17,8 +16,7 @@
 
 @font-face {
   font-family: "TITLE";
-  src:
-    url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
+  src: url("./fonts/DMConstitution-Regular.woff2") format("woff2"),
     url("./DMConstitution-Regular.woff") format("woff"),
     url("./fonts/DMConstitution-Regular.eot") format("embedded-opentype"),
     url("./fonts/DMConstitution-Regular.svg#DMArchium") format("svg");
@@ -32,8 +30,7 @@
 
 @font-face {
   font-family: "NAVBAR";
-  src:
-    url("./fonts/AcadMtavr.woff2") format("woff2"),
+  src: url("./fonts/AcadMtavr.woff2") format("woff2"),
     url("./fonts/AcadMtavr.woff") format("woff"),
     url("./fonts/AcadMtavr.eot") format("embedded-opentype"),
     url("./fonts/AcadMtavr.svg#NAVBARoxo") format("svg");
@@ -46,9 +43,9 @@
 }
 
 @theme {
-  --color-Gold:  #FFC847;
+  --color-Gold: #ffc847;
   --color-BG: #0a0a0a;
-  --color-textMuted: #FFDA85;
+  --color-textMuted: #ffda85;
   --color-footer: #1c1c1c;
 }
 

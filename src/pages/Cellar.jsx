@@ -1,4 +1,3 @@
-import vazi from "/vazi.png";
 import IMG_1 from "/9.jpg";
 import BGfoto from "/venaxi.webp";
 import Card from "../components/Card";
@@ -6,27 +5,38 @@ import Card from "../components/Card";
 function Cellar() {
   return (
     <>
-      <div className="relative w-full flex flex-col items-center justify-center text-center px-4 overflow-hidden bg-footer min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)] lg:h-225 py-12">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-50"
-          style={{ backgroundImage: `url(${vazi})` }}
-        />
+   <section className="relative w-full flex flex-col items-center justify-center text-center overflow-hidden min-h-screen py-12 bg-black">
+  <div className="relative z-10 flex flex-col items-center justify-center w-full px-4 max-w-7xl">
+    
+    <div className="flex items-center justify-center gap-4 mb-12 md:mb-20">
+      <span className="w-12 md:w-16 h-px bg-Gold/60"></span>
+      <p className="text-textMuted tracking-[0.3em] uppercase text-xl md:text-2xl italic">
+        ქართული ტრადიციული ქვევრის ღვინოები
+      </p>
+      <span className="w-12 md:w-16 h-px bg-Gold/60"></span>
+    </div>
 
-        <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
-          <p className="font-BPGB text-Gold tracking-[0.3em] uppercase">
-            სოფელი ოჟიო · კახეთი · საქართველო
-          </p>
+    <h1 className="font-TITLE text-white font-bold text-8xl   text-center">
+      ბექას მარნის რჩეული კოლექცია
+    </h1>
 
-          <h1 className="font-DM text-textMuted w-300 leading-40 text-5xl text-center ">
-            ღვინის მარანი და კახური
-            <p className=" text-Gold">ტრადიციების საწყისი </p>
-          </h1>
+    <p className="w-full max-w-2xl text-textMuted tracking-wide leading-relaxed text-xl md:text-2xl mt-12 md:mt-20">
+      აღმოაჩინეთ ოჟიოს ვენახებიდან დაწურული, ქვევრში დავარგებული ექსკლუზიური ღვინოების მდიდარი ასორტიმენტი.
+    </p>
 
-          <p className="w-full max-w-2xl font-BPGB text-white  tracking-wide leading-relaxed">
-            8000 წლის ისტორია ახლა თქვენს ჭიქაშია
-          </p>
-        </div>
-      </div>
+    <button className="border border-[#C5A880] text-Gold hover:bg-[#C5A880] hover:text-black transition-all duration-300 px-8 py-4 text-sm md:text-base tracking-[0.2em] uppercase font-medium flex items-center gap-2 group cursor-pointer mt-12 md:mt-16">
+      <span>კოლექციის დათვალიერება</span>
+      <span className="text-lg leading-none group-hover:translate-y-1 transition-transform">
+        ↓
+      </span>
+    </button>
+
+  </div>
+</section>
+
+
+
+
       <div className=" bg-black ">
         <div className="flex items-center justify-center container-center mx-auto py-12 sm:px-6">
           <section className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12   w-full">

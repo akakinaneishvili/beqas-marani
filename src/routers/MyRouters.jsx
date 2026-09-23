@@ -6,10 +6,12 @@ import Cellar from "../pages/Cellar";
 import Restaurant from "../pages/Restaurant";
 import Hotel from "../pages/Hotel";
 import Contact from "../pages/Contact";
+import ScrollToTop from "./ScrollToTop";
 
 function Myrouters() {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />

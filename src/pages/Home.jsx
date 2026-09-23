@@ -18,7 +18,7 @@ function Home() {
           }}
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-center w-full px-4 max-w-7xl">
+        <div className="relative z-10 flex flex-col items-center justify-center w-full px-4 max-w-7xl ">
           <p className="text-textMuted tracking-[0.3em] uppercase text-xl md:text-2xl mb-12 md:mb-20">
             სოფელი ოჟიო · კახეთი · საქართველო
           </p>
@@ -54,7 +54,7 @@ function Home() {
 
       <div className="flex flex-col items-center justify-center mb-12 text-center">
 
-        <p className="text-Gold text-sm sm:text-base tracking-[0.3em] uppercase mb-3">
+        <p className="text-white text-sm sm:text-base tracking-[0.3em] uppercase mb-3">
           გ ა ლ ე რ ე ა
         </p>
 
