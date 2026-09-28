@@ -32,10 +32,10 @@ function MenuCard() {
               className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
 
             <div className="absolute bottom-6 left-6 text-white z-10">
-              <div className="w-5 h-px bg-Gold/70 mb-2 transition-all duration-300 group-hover:w-8" />
+            <div className="w-6 h-0.5 bg-Gold mb-3 transition-all duration-700 ease-in-out group-hover:w-16" />
               <h3 className="text-xl sm:text-2xl font-TITLE tracking-wide">
                 {item.title}
               </h3>

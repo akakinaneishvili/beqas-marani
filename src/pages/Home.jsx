@@ -1,20 +1,18 @@
-import mainBg from "/vineyard.jpg";
+import venaxiBG from "/venaxiBG.png";
 import grapes from "/grapes.svg";
 import MenuCard from "../components/MenuCard";
 import Slider from "../components/Slider";
 
 import Feature from "../components/Feature";
 
-
 function Home() {
   return (
     <div className="w-full overflow-x-hidden bg-black">
-
       <section className="relative w-full flex flex-col items-center justify-center text-center overflow-hidden min-h-screen py-12">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `radial-gradient(ellipse at center, rgba(10, 10, 10, 0.5) 20%, rgba(10, 10, 10, 0.7) 65%, #0A0A0A 90%), url(${mainBg})`,
+            backgroundImage: `radial-gradient(ellipse at center, rgba(10, 10, 10, 0.5) 20%, rgba(10, 10, 10, 0.7) 65%, #0A0A0A 90%), url(${venaxiBG})`,
           }}
         />
 
@@ -48,23 +46,16 @@ function Home() {
         </div>
 
         <MenuCard />
-
-
       </section>
 
       <div className="flex flex-col items-center justify-center mb-12 text-center">
-
         <p className="text-white text-sm sm:text-base tracking-[0.3em] uppercase mb-3">
           გ ა ლ ე რ ე ა
         </p>
 
-
         <h2 className="font-TITLE text-Gold text-4xl sm:text-6xl md:text-7xl my-4">
           ცხოვრება ვენახში
         </h2>
-
-
-
 
         <div className="w-24 h-[1px] bg-gradient-to-r from-transparent via-[#C5A880] to-transparent opacity-60"></div>
       </div>
@@ -73,8 +64,7 @@ function Home() {
         <Slider />
       </section>
 
-     
-   <Feature/>
+      <Feature />
 
       <footer className="w-full flex justify-center items-center py-16 md:py-28 bg-footer text-center px-6 sm:px-8">
         <p className="font-DM text-Gold leading-relaxed text-lg sm:text-xl md:text-2xl italic font-light tracking-wide max-w-4xl">

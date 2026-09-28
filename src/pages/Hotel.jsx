@@ -1,17 +1,16 @@
-
 import RoomCard from "../components/RoomCard";
-import hotel from "/hotel.png";
+import sastumro from "/sastumro.png";
 
 function Hotel() {
- 
   return (
     <>
       <div className="relative w-full flex flex-col items-center justify-center text-center px-4 overflow-hidden bg-footer min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)] lg:h-225 py-12">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-50"
-          style={{ backgroundImage: `url(${hotel})` }}
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `radial-gradient(ellipse at center, rgba(10, 10, 10, 0.5) 20%, rgba(10, 10, 10, 0.7) 65%, #0A0A0A 90%), url(${sastumro})`,
+          }}
         />
-
         <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
           <p className="font-BPGB text-Gold  tracking-[0.3em] uppercase">
             სოფელი ოჟიო · კახეთი · საქართველო
@@ -36,12 +35,11 @@ function Hotel() {
               დაისვენეთ კახეთში
             </p>
             <h2 className="font-DM text-textMuted text-3xl sm:text-4xl font-bold">
-              
               ჩვენი სასტუმრო
             </h2>
           </div>
         </div>
-    <RoomCard/>
+        <RoomCard />
       </div>
     </>
   );
