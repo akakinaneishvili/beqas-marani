@@ -11,17 +11,12 @@ function Hotel() {
             backgroundImage: `radial-gradient(ellipse at center, rgba(10, 10, 10, 0.5) 20%, rgba(10, 10, 10, 0.7) 65%, #0A0A0A 90%), url(${sastumro})`,
           }}
         />
-        <div className="relative z-10 container-center flex flex-col items-center justify-around w-full max-w-7xl h-full min-h-100 lg:h-225 gap-8 lg:gap-0">
-          <p className="font-BPGB text-Gold  tracking-[0.3em] uppercase">
-            სოფელი ოჟიო · კახეთი · საქართველო
-          </p>
-
-          <h1 className="font-TITLE text-textMuted w-300 leading-40 text-5xl text-center ">
-            სადაც კომფორტი ხვდება
-            <p className=" text-Gold">ტრადიციას </p>
+        <div className="relative z-10 flex flex-col items-center justify-center w-full px-4 max-w-7xl">
+          <h1 className="font-TITLE text-white font-bold text-5xl md:text-7xl lg:text-8xl text-center drop-shadow-2xl">
+            სადაც კომფორტი ხვდება ტრადიციას
           </h1>
 
-          <p className="w-full max-w-2xl font-BPGB text-white  tracking-wide leading-relaxed">
+          <p className="w-full max-w-2xl text-textMuted tracking-wide leading-relaxed text-lg md:text-xl lg:text-2xl mt-8 md:mt-12 drop-shadow-md">
             აღმოაჩინეთ განსაკუთრებული მზრუნველობა და გარემო, სადაც თითოეული
             დეტალი თქვენს დასვენებაზე ფიქრობს.
           </p>

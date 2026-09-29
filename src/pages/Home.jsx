@@ -57,7 +57,7 @@ function Home() {
           ცხოვრება ვენახში
         </h2>
 
-        <div className="w-24 h-[1px] bg-gradient-to-r from-transparent via-[#C5A880] to-transparent opacity-60"></div>
+        <div className="w-24 h-px bg-linear-to-r from-transparent via-[#C5A880] to-transparent opacity-60"></div>
       </div>
 
       <section className="w-full bg-black">

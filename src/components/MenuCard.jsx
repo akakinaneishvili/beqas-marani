@@ -20,6 +20,7 @@ function MenuCard() {
   return (
     <section className="bg-black p-4 flex justify-center items-center min-h-screen">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-1 w-full max-w-5xl">
+
         {info.map((item) => (
           <NavLink
             key={item.id}
